@@ -10,17 +10,20 @@
 .btn {
   display: inline-block;
   .ie7-inline-block();
-  padding: 4px 12px;
+  padding: 8px 12px;
   margin-bottom: 0; // For input.btn
+  font-family: "Varela";
   font-size: @baseFontSize;
+  font-weight: bold;
   line-height: @baseLineHeight;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  .buttonBackground(@btnBackground, @btnBackgroundHighlight, @grayDark, 0 1px 1px rgba(255,255,255,.75));
-  border: 1px solid @btnBorder;
+  .bricksButtonBackground(@btnBackground, @btnBackgroundHighlight, @btnBorder, @grayDark, 0 1px 1px rgba(255,255,255,.75));
+  border: 0;
+  border-bottom: 2px solid @btnBorder;
   *border: 0; // Remove the border to prevent IE7's black border on input:focus
-  border-bottom-color: darken(@btnBorder, 10%);
+  //border-bottom-color: darken(@btnBorder, 10%);
   .border-radius(@baseBorderRadius);
   .ie7-restore-left-whitespace(); // Give IE7 some love
   .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05)");
@@ -144,10 +147,10 @@ input[type="button"] {
 .btn {
   // reset here as of 2.0.3 due to Recess property order
   border-color: #c5c5c5;
-  border-color: rgba(0,0,0,.15) rgba(0,0,0,.15) rgba(0,0,0,.25);
+  //border-color: rgba(0,0,0,.15) rgba(0,0,0,.15) rgba(0,0,0,.25);
 }
 .btn-primary {
-  .buttonBackground(@btnPrimaryBackground, @btnPrimaryBackgroundHighlight);
+  .bricksButtonBackground(@btnPrimaryBackground, @btnPrimaryBackgroundHighlight, @btnPrimaryBorder);
 }
 // Warning appears are orange
 .btn-warning {
@@ -167,7 +170,7 @@ input[type="button"] {
 }
 // Inverse appears as dark gray
 .btn-inverse {
-  .buttonBackground(@btnInverseBackground, @btnInverseBackgroundHighlight);
+  .bricksButtonBackground(@btnInverseBackground, @btnInverseBackgroundHighlight, @btnInverseBorder);
 }
 
 

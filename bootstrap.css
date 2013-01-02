@@ -1,0 +1,2686 @@
+
+Analyzing the following files: [90mless/bootstrap.less
+[39m
+FILE: [36mless/bootstrap.less[39m
+STATUS: [35mBusted[39m
+FAILURES: [35m499 failures[39m
+
+[36mIncorrect property order for rule[35m "img"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    5130. [39m width: auto\9;
+[90m    5131. [39m height: auto;
+[90m    5132. [39m max-width: 100%;
+[90m    5133. [39m vertical-align: middle;
+[90m    5134. [39m border: 0;
+[90m    5135. [39m -ms-interpolation-mode: bicubic;
+
+[36mId's should not be styled[39m
+[90m      75. [39m[35m#[39mmap_canvas
+
+[36mUnderscores should not be used when naming selectors[39m
+[90m      75. [39m#map[35m_[39mcanvas
+
+[36mIncorrect property order for rule[35m "button, html input[type="button"], input[type="reset"], input[type="submit"]"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     101. [39m cursor: pointer;
+[90m     102. [39m -webkit-appearance: button;
+
+[36mIncorrect property order for rule[35m ".clearfix:before, .clearfix:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     185. [39m display: table;
+[90m     186. [39m line-height: 0;
+[90m     187. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".row:before, .row:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     248. [39m display: table;
+[90m     249. [39m line-height: 0;
+[90m     250. [39m content: "";
+
+[36mUniversal selectors should be avoided[39m
+[90m     255. [39m [class[35m*[39m="span"]
+
+[36mIncorrect property order for rule[35m ".row-fluid:before, .row-fluid:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     344. [39m display: table;
+[90m     345. [39m line-height: 0;
+[90m     346. [39m content: "";
+
+[36mUniversal selectors should be avoided[39m
+[90m     351. [39m .row-fluid [class[35m*[39m="span"]
+
+[36mIncorrect property order for rule[35m ".row-fluid [class*="span"]"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     352. [39m display: block;
+[90m     353. [39m float: left;
+[90m     354. [39m width: 100%;
+[90m     355. [39m min-height: 30px;
+[90m     356. [39m margin-left: 2.127659574468085%;
+[90m     357. [39m *margin-left: 2.074468085106383%;
+[90m     358. [39m -webkit-box-sizing: border-box;
+[90m     359. [39m -moz-box-sizing: border-box;
+[90m     360. [39m box-sizing: border-box;
+
+[36mUniversal selectors should be avoided[39m
+[90m     362. [39m .row-fluid [class[35m*[39m="span"]:first-child
+
+[36mUniversal selectors should be avoided[39m
+[90m     365. [39m .row-fluid .controls-row [class[35m*[39m="span"] + [class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m     512. [39m [class[35m*[39m="span"].hide
+
+[36mUniversal selectors should be avoided[39m
+[90m     513. [39m .row-fluid [class[35m*[39m="span"].hide
+
+[36mUniversal selectors should be avoided[39m
+[90m     516. [39m [class[35m*[39m="span"].pull-right
+
+[36mUniversal selectors should be avoided[39m
+[90m     517. [39m .row-fluid [class[35m*[39m="span"].pull-right
+
+[36mIncorrect property order for rule[35m ".container:before, .container:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     527. [39m display: table;
+[90m     528. [39m line-height: 0;
+[90m     529. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".container-fluid:before, .container-fluid:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     541. [39m display: table;
+[90m     542. [39m line-height: 0;
+[90m     543. [39m content: "";
+
+[36mElement selectors should not be overqualified[39m
+[90m     572. [39m[35ma[39m.muted:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m     578. [39m[35ma[39m.text-warning:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m     584. [39m[35ma[39m.text-error:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m     590. [39m[35ma[39m.text-info:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m     596. [39m[35ma[39m.text-success:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m     676. [39m[35mul[39m.unstyled
+
+[36mElement selectors should not be overqualified[39m
+[90m     677. [39m[35mol[39m.unstyled
+
+[36mElement selectors should not be overqualified[39m
+[90m     681. [39m[35mul[39m.inline
+
+[36mElement selectors should not be overqualified[39m
+[90m     682. [39m[35mol[39m.inline
+
+[36mElement selectors should not be overqualified[39m
+[90m     686. [39m[35mul[39m.inline > li
+
+[36mElement selectors should not be overqualified[39m
+[90m     687. [39m[35mol[39m.inline > li
+
+[36mIncorrect property order for rule[35m "ul.inline > li, ol.inline > li"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     688. [39m display: inline-block;
+[90m     689. [39m padding-right: 5px;
+[90m     690. [39m padding-left: 5px;
+
+[36mIncorrect property order for rule[35m ".dl-horizontal:before, .dl-horizontal:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     710. [39m display: table;
+[90m     711. [39m line-height: 0;
+[90m     712. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".dl-horizontal dt"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     718. [39m float: left;
+[90m     719. [39m width: 160px;
+[90m     720. [39m overflow: hidden;
+[90m     721. [39m clear: left;
+[90m     722. [39m text-align: right;
+[90m     723. [39m text-overflow: ellipsis;
+[90m     724. [39m white-space: nowrap;
+
+[36mElement selectors should not be overqualified[39m
+[90m     740. [39m[35mabbr[39m.initialism
+
+[36mElement selectors should not be overqualified[39m
+[90m     763. [39m[35mblockquote[39m.pull-right
+
+[36mElement selectors should not be overqualified[39m
+[90m     770. [39m[35mblockquote[39m.pull-right p
+
+[36mElement selectors should not be overqualified[39m
+[90m     771. [39m[35mblockquote[39m.pull-right small
+
+[36mElement selectors should not be overqualified[39m
+[90m     774. [39m[35mblockquote[39m.pull-right small:before
+
+[36mElement selectors should not be overqualified[39m
+[90m     777. [39m[35mblockquote[39m.pull-right small:after
+
+[36mIncorrect property order for rule[35m "code"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     803. [39m padding: 2px 4px;
+[90m     804. [39m color: #d14;
+[90m     805. [39m white-space: nowrap;
+[90m     806. [39m background-color: #f7f7f9;
+[90m     807. [39m border: 1px solid #e1e1e8;
+
+[36mElement selectors should not be overqualified[39m
+[90m     826. [39m[35mpre[39m.prettyprint
+
+[36mIncorrect property order for rule[35m "label"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     880. [39m display: block;
+[90m     881. [39m margin-bottom: 5px;
+[90m     882. [39m font-family: "Varela Round";
+[90m     883. [39m font-weight: bold;
+[90m     884. [39m color: #5f5f5f;
+
+[36mIncorrect property order for rule[35m "select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     903. [39m display: inline-block;
+[90m     904. [39m height: 20px;
+[90m     905. [39m padding: 8px 6px;
+[90m     906. [39m margin-bottom: 10px;
+[90m     907. [39m font-size: 14px;
+[90m     908. [39m line-height: 20px;
+[90m     909. [39m color: #372f2b;
+[90m     910. [39m vertical-align: middle;
+[90m     911. [39m -webkit-border-radius: 4px;
+[90m     912. [39m -moz-border-radius: 4px;
+[90m     913. [39m border-radius: 4px;
+
+[36mIncorrect property order for rule[35m "input[type="radio"], input[type="checkbox"]"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     977. [39m margin: 4px 0 0;
+[90m     978. [39m margin-top: 1px \9;
+[90m     979. [39m *margin-top: 0;
+[90m     980. [39m line-height: normal;
+
+[36mIncorrect property order for rule[35m "select"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1006. [39m width: 220px;
+[90m    1007. [39m background-color: #ffffff;
+[90m    1008. [39m border: 1px solid #e4e4e2;
+
+[36mIncorrect property order for rule[35m ".uneditable-input, .uneditable-textarea"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1024. [39m color: #c0c0c0;
+[90m    1025. [39m cursor: not-allowed;
+[90m    1026. [39m background-color: #fcfcfc;
+[90m    1027. [39m border-color: #e4e4e2;
+[90m    1028. [39m -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+[90m    1029. [39m -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+[90m    1030. [39m box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+
+[36mIncorrect property order for rule[35m "input:-moz-placeholder, textarea:-moz-placeholder"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1042. [39m font-weight: bold;
+[90m    1043. [39m color: #c0c0c0;
+
+[36mIncorrect property order for rule[35m "input:-ms-input-placeholder, textarea:-ms-input-placeholder"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1047. [39m font-weight: bold;
+[90m    1048. [39m color: #c0c0c0;
+
+[36mIncorrect property order for rule[35m "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1052. [39m font-weight: bold;
+[90m    1053. [39m color: #c0c0c0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    1069. [39m.[35mradio[39m.inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1070. [39m.[35mcheckbox[39m.inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1076. [39m.[35mradio[39m.inline + .radio.inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1077. [39m.[35mcheckbox[39m.inline + .checkbox.inline
+
+[36mUniversal selectors should be avoided[39m
+[90m    1098. [39m input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1099. [39m select[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1100. [39m textarea[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1101. [39m .uneditable-input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1102. [39m .row-fluid input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1103. [39m .row-fluid select[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1104. [39m .row-fluid textarea[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1105. [39m .row-fluid .uneditable-input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1109. [39m .input-append input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1110. [39m .input-append .uneditable-input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1111. [39m .input-prepend input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1112. [39m .input-prepend .uneditable-input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1113. [39m .row-fluid input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1114. [39m .row-fluid select[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1115. [39m .row-fluid textarea[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1116. [39m .row-fluid .uneditable-input[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1117. [39m .row-fluid .input-prepend [class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1118. [39m .row-fluid .input-append [class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1126. [39m .controls-row [class[35m*[39m="span"] + [class[35m*[39m="span"]
+
+[36mElement selectors should not be overqualified[39m
+[90m    1129. [39m[35minput[39m.span12
+
+[36mElement selectors should not be overqualified[39m
+[90m    1129. [39m[35mtextarea[39m.span12
+
+[36mElement selectors should not be overqualified[39m
+[90m    1129. [39m.[35muneditable-input[39m.span12
+
+[36mElement selectors should not be overqualified[39m
+[90m    1132. [39m[35minput[39m.span11
+
+[36mElement selectors should not be overqualified[39m
+[90m    1132. [39m[35mtextarea[39m.span11
+
+[36mElement selectors should not be overqualified[39m
+[90m    1132. [39m.[35muneditable-input[39m.span11
+
+[36mElement selectors should not be overqualified[39m
+[90m    1135. [39m[35minput[39m.span10
+
+[36mElement selectors should not be overqualified[39m
+[90m    1135. [39m[35mtextarea[39m.span10
+
+[36mElement selectors should not be overqualified[39m
+[90m    1135. [39m.[35muneditable-input[39m.span10
+
+[36mElement selectors should not be overqualified[39m
+[90m    1138. [39m[35minput[39m.span9
+
+[36mElement selectors should not be overqualified[39m
+[90m    1138. [39m[35mtextarea[39m.span9
+
+[36mElement selectors should not be overqualified[39m
+[90m    1138. [39m.[35muneditable-input[39m.span9
+
+[36mElement selectors should not be overqualified[39m
+[90m    1141. [39m[35minput[39m.span8
+
+[36mElement selectors should not be overqualified[39m
+[90m    1141. [39m[35mtextarea[39m.span8
+
+[36mElement selectors should not be overqualified[39m
+[90m    1141. [39m.[35muneditable-input[39m.span8
+
+[36mElement selectors should not be overqualified[39m
+[90m    1144. [39m[35minput[39m.span7
+
+[36mElement selectors should not be overqualified[39m
+[90m    1144. [39m[35mtextarea[39m.span7
+
+[36mElement selectors should not be overqualified[39m
+[90m    1144. [39m.[35muneditable-input[39m.span7
+
+[36mElement selectors should not be overqualified[39m
+[90m    1147. [39m[35minput[39m.span6
+
+[36mElement selectors should not be overqualified[39m
+[90m    1147. [39m[35mtextarea[39m.span6
+
+[36mElement selectors should not be overqualified[39m
+[90m    1147. [39m.[35muneditable-input[39m.span6
+
+[36mElement selectors should not be overqualified[39m
+[90m    1150. [39m[35minput[39m.span5
+
+[36mElement selectors should not be overqualified[39m
+[90m    1150. [39m[35mtextarea[39m.span5
+
+[36mElement selectors should not be overqualified[39m
+[90m    1150. [39m.[35muneditable-input[39m.span5
+
+[36mElement selectors should not be overqualified[39m
+[90m    1153. [39m[35minput[39m.span4
+
+[36mElement selectors should not be overqualified[39m
+[90m    1153. [39m[35mtextarea[39m.span4
+
+[36mElement selectors should not be overqualified[39m
+[90m    1153. [39m.[35muneditable-input[39m.span4
+
+[36mElement selectors should not be overqualified[39m
+[90m    1156. [39m[35minput[39m.span3
+
+[36mElement selectors should not be overqualified[39m
+[90m    1156. [39m[35mtextarea[39m.span3
+
+[36mElement selectors should not be overqualified[39m
+[90m    1156. [39m.[35muneditable-input[39m.span3
+
+[36mElement selectors should not be overqualified[39m
+[90m    1159. [39m[35minput[39m.span2
+
+[36mElement selectors should not be overqualified[39m
+[90m    1159. [39m[35mtextarea[39m.span2
+
+[36mElement selectors should not be overqualified[39m
+[90m    1159. [39m.[35muneditable-input[39m.span2
+
+[36mElement selectors should not be overqualified[39m
+[90m    1162. [39m[35minput[39m.span1
+
+[36mElement selectors should not be overqualified[39m
+[90m    1162. [39m[35mtextarea[39m.span1
+
+[36mElement selectors should not be overqualified[39m
+[90m    1162. [39m.[35muneditable-input[39m.span1
+
+[36mIncorrect property order for rule[35m ".controls-row:before, .controls-row:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1170. [39m display: table;
+[90m    1171. [39m line-height: 0;
+[90m    1172. [39m content: "";
+
+[36mUniversal selectors should be avoided[39m
+[90m    1177. [39m .controls-row [class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1178. [39m .row-fluid .controls-row [class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1181. [39m .controls-row .checkbox[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1182. [39m .controls-row .radio[class[35m*[39m="span"]
+
+[36mElement selectors should not be overqualified[39m
+[90m    1203. [39m.[35mcontrol-group[39m.warning .control-label
+
+[36mElement selectors should not be overqualified[39m
+[90m    1204. [39m.[35mcontrol-group[39m.warning .help-block
+
+[36mElement selectors should not be overqualified[39m
+[90m    1205. [39m.[35mcontrol-group[39m.warning .help-inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1208. [39m.[35mcontrol-group[39m.warning .checkbox
+
+[36mElement selectors should not be overqualified[39m
+[90m    1209. [39m.[35mcontrol-group[39m.warning .radio
+
+[36mElement selectors should not be overqualified[39m
+[90m    1210. [39m.[35mcontrol-group[39m.warning input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1211. [39m.[35mcontrol-group[39m.warning select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1212. [39m.[35mcontrol-group[39m.warning textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1215. [39m.[35mcontrol-group[39m.warning input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1216. [39m.[35mcontrol-group[39m.warning select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1217. [39m.[35mcontrol-group[39m.warning textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1223. [39m.[35mcontrol-group[39m.warning input:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1224. [39m.[35mcontrol-group[39m.warning select:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1225. [39m.[35mcontrol-group[39m.warning textarea:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1231. [39m.[35mcontrol-group[39m.warning .input-prepend .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1232. [39m.[35mcontrol-group[39m.warning .input-append .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1237. [39m.[35mcontrol-group[39m.error .control-label
+
+[36mElement selectors should not be overqualified[39m
+[90m    1238. [39m.[35mcontrol-group[39m.error .help-block
+
+[36mElement selectors should not be overqualified[39m
+[90m    1239. [39m.[35mcontrol-group[39m.error .help-inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1242. [39m.[35mcontrol-group[39m.error .checkbox
+
+[36mElement selectors should not be overqualified[39m
+[90m    1243. [39m.[35mcontrol-group[39m.error .radio
+
+[36mElement selectors should not be overqualified[39m
+[90m    1244. [39m.[35mcontrol-group[39m.error input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1245. [39m.[35mcontrol-group[39m.error select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1246. [39m.[35mcontrol-group[39m.error textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1249. [39m.[35mcontrol-group[39m.error input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1250. [39m.[35mcontrol-group[39m.error select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1251. [39m.[35mcontrol-group[39m.error textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1257. [39m.[35mcontrol-group[39m.error input:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1258. [39m.[35mcontrol-group[39m.error select:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1259. [39m.[35mcontrol-group[39m.error textarea:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1265. [39m.[35mcontrol-group[39m.error .input-prepend .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1266. [39m.[35mcontrol-group[39m.error .input-append .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1271. [39m.[35mcontrol-group[39m.success .control-label
+
+[36mElement selectors should not be overqualified[39m
+[90m    1272. [39m.[35mcontrol-group[39m.success .help-block
+
+[36mElement selectors should not be overqualified[39m
+[90m    1273. [39m.[35mcontrol-group[39m.success .help-inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1276. [39m.[35mcontrol-group[39m.success .checkbox
+
+[36mElement selectors should not be overqualified[39m
+[90m    1277. [39m.[35mcontrol-group[39m.success .radio
+
+[36mElement selectors should not be overqualified[39m
+[90m    1278. [39m.[35mcontrol-group[39m.success input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1279. [39m.[35mcontrol-group[39m.success select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1280. [39m.[35mcontrol-group[39m.success textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1283. [39m.[35mcontrol-group[39m.success input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1284. [39m.[35mcontrol-group[39m.success select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1285. [39m.[35mcontrol-group[39m.success textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1291. [39m.[35mcontrol-group[39m.success input:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1292. [39m.[35mcontrol-group[39m.success select:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1293. [39m.[35mcontrol-group[39m.success textarea:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1299. [39m.[35mcontrol-group[39m.success .input-prepend .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1300. [39m.[35mcontrol-group[39m.success .input-append .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1305. [39m.[35mcontrol-group[39m.info .control-label
+
+[36mElement selectors should not be overqualified[39m
+[90m    1306. [39m.[35mcontrol-group[39m.info .help-block
+
+[36mElement selectors should not be overqualified[39m
+[90m    1307. [39m.[35mcontrol-group[39m.info .help-inline
+
+[36mElement selectors should not be overqualified[39m
+[90m    1310. [39m.[35mcontrol-group[39m.info .checkbox
+
+[36mElement selectors should not be overqualified[39m
+[90m    1311. [39m.[35mcontrol-group[39m.info .radio
+
+[36mElement selectors should not be overqualified[39m
+[90m    1312. [39m.[35mcontrol-group[39m.info input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1313. [39m.[35mcontrol-group[39m.info select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1314. [39m.[35mcontrol-group[39m.info textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1317. [39m.[35mcontrol-group[39m.info input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1318. [39m.[35mcontrol-group[39m.info select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1319. [39m.[35mcontrol-group[39m.info textarea
+
+[36mElement selectors should not be overqualified[39m
+[90m    1325. [39m.[35mcontrol-group[39m.info input:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1326. [39m.[35mcontrol-group[39m.info select:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1327. [39m.[35mcontrol-group[39m.info textarea:focus
+
+[36mElement selectors should not be overqualified[39m
+[90m    1333. [39m.[35mcontrol-group[39m.info .input-prepend .add-on
+
+[36mElement selectors should not be overqualified[39m
+[90m    1334. [39m.[35mcontrol-group[39m.info .input-append .add-on
+
+[36mIncorrect property order for rule[35m ".form-actions:before, .form-actions:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1363. [39m display: table;
+[90m    1364. [39m line-height: 0;
+[90m    1365. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".help-inline"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1379. [39m display: inline-block;
+[90m    1380. [39m *display: inline;
+[90m    1381. [39m padding-left: 5px;
+[90m    1382. [39m vertical-align: middle;
+[90m    1383. [39m *zoom: 1;
+
+[36mElement selectors should not be overqualified[39m
+[90m    1492. [39m.[35minput-prepend[39m.input-append input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1493. [39m.[35minput-prepend[39m.input-append select
+
+[36mElement selectors should not be overqualified[39m
+[90m    1494. [39m.[35minput-prepend[39m.input-append .uneditable-input
+
+[36mElement selectors should not be overqualified[39m
+[90m    1499. [39m.[35minput-prepend[39m.input-append input + .btn-group .btn
+
+[36mElement selectors should not be overqualified[39m
+[90m    1500. [39m.[35minput-prepend[39m.input-append select + .btn-group .btn
+
+[36mElement selectors should not be overqualified[39m
+[90m    1501. [39m.[35minput-prepend[39m.input-append .uneditable-input + .btn-group .btn
+
+[36mElement selectors should not be overqualified[39m
+[90m    1506. [39m.[35minput-prepend[39m.input-append .add-on:first-child
+
+[36mElement selectors should not be overqualified[39m
+[90m    1507. [39m.[35minput-prepend[39m.input-append .btn:first-child
+
+[36mElement selectors should not be overqualified[39m
+[90m    1513. [39m.[35minput-prepend[39m.input-append .add-on:last-child
+
+[36mElement selectors should not be overqualified[39m
+[90m    1514. [39m.[35minput-prepend[39m.input-append .btn:last-child
+
+[36mElement selectors should not be overqualified[39m
+[90m    1520. [39m.[35minput-prepend[39m.input-append .btn-group:first-child
+
+[36mElement selectors should not be overqualified[39m
+[90m    1523. [39m[35minput[39m.search-query
+
+[36mIncorrect property order for rule[35m ".form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1583. [39m display: inline-block;
+[90m    1584. [39m *display: inline;
+[90m    1585. [39m margin-bottom: 0;
+[90m    1586. [39m vertical-align: middle;
+[90m    1587. [39m *zoom: 1;
+
+[36mIncorrect property order for rule[35m ".form-horizontal .control-group:before, .form-horizontal .control-group:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1637. [39m display: table;
+[90m    1638. [39m line-height: 0;
+[90m    1639. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1741. [39m -webkit-border-top-left-radius: 4px;
+[90m    1742. [39m border-top-left-radius: 4px;
+[90m    1743. [39m -moz-border-radius-topleft: 4px;
+
+[36mIncorrect property order for rule[35m ".table-bordered thead:first-child tr:first-child > th:last-child, .table-bordered tbody:first-child tr:first-child > td:last-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1747. [39m -webkit-border-top-right-radius: 4px;
+[90m    1748. [39m border-top-right-radius: 4px;
+[90m    1749. [39m -moz-border-radius-topright: 4px;
+
+[36mIncorrect property order for rule[35m ".table-bordered thead:last-child tr:last-child > th:first-child, .table-bordered tbody:last-child tr:last-child > td:first-child, .table-bordered tfoot:last-child tr:last-child > td:first-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1754. [39m -webkit-border-bottom-left-radius: 4px;
+[90m    1755. [39m border-bottom-left-radius: 4px;
+[90m    1756. [39m -moz-border-radius-bottomleft: 4px;
+
+[36mIncorrect property order for rule[35m ".table-bordered thead:last-child tr:last-child > th:last-child, .table-bordered tbody:last-child tr:last-child > td:last-child, .table-bordered tfoot:last-child tr:last-child > td:last-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1761. [39m -webkit-border-bottom-right-radius: 4px;
+[90m    1762. [39m border-bottom-right-radius: 4px;
+[90m    1763. [39m -moz-border-radius-bottomright: 4px;
+
+[36mIncorrect property order for rule[35m ".table-bordered tfoot + tbody:last-child tr:last-child td:first-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1766. [39m -webkit-border-bottom-left-radius: 0;
+[90m    1767. [39m border-bottom-left-radius: 0;
+[90m    1768. [39m -moz-border-radius-bottomleft: 0;
+
+[36mIncorrect property order for rule[35m ".table-bordered tfoot + tbody:last-child tr:last-child td:last-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1771. [39m -webkit-border-bottom-right-radius: 0;
+[90m    1772. [39m border-bottom-right-radius: 0;
+[90m    1773. [39m -moz-border-radius-bottomright: 0;
+
+[36mIncorrect property order for rule[35m ".table-bordered caption + thead tr:first-child th:first-child, .table-bordered caption + tbody tr:first-child td:first-child, .table-bordered colgroup + thead tr:first-child th:first-child, .table-bordered colgroup + tbody tr:first-child td:first-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1779. [39m -webkit-border-top-left-radius: 4px;
+[90m    1780. [39m border-top-left-radius: 4px;
+[90m    1781. [39m -moz-border-radius-topleft: 4px;
+
+[36mIncorrect property order for rule[35m ".table-bordered caption + thead tr:first-child th:last-child, .table-bordered caption + tbody tr:first-child td:last-child, .table-bordered colgroup + thead tr:first-child th:last-child, .table-bordered colgroup + tbody tr:first-child td:last-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1787. [39m -webkit-border-top-right-radius: 4px;
+[90m    1788. [39m border-top-right-radius: 4px;
+[90m    1789. [39m -moz-border-radius-topright: 4px;
+
+[36mUniversal selectors should be avoided[39m
+[90m    1799. [39m table td[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1800. [39m table th[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1801. [39m .row-fluid table td[class[35m*[39m="span"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1802. [39m .row-fluid table th[class[35m*[39m="span"]
+
+[36mElement selectors should not be overqualified[39m
+[90m    1807. [39m.table [35mtd[39m.span1
+
+[36mElement selectors should not be overqualified[39m
+[90m    1808. [39m.table [35mth[39m.span1
+
+[36mElement selectors should not be overqualified[39m
+[90m    1813. [39m.table [35mtd[39m.span2
+
+[36mElement selectors should not be overqualified[39m
+[90m    1814. [39m.table [35mth[39m.span2
+
+[36mElement selectors should not be overqualified[39m
+[90m    1819. [39m.table [35mtd[39m.span3
+
+[36mElement selectors should not be overqualified[39m
+[90m    1820. [39m.table [35mth[39m.span3
+
+[36mElement selectors should not be overqualified[39m
+[90m    1825. [39m.table [35mtd[39m.span4
+
+[36mElement selectors should not be overqualified[39m
+[90m    1826. [39m.table [35mth[39m.span4
+
+[36mElement selectors should not be overqualified[39m
+[90m    1831. [39m.table [35mtd[39m.span5
+
+[36mElement selectors should not be overqualified[39m
+[90m    1832. [39m.table [35mth[39m.span5
+
+[36mElement selectors should not be overqualified[39m
+[90m    1837. [39m.table [35mtd[39m.span6
+
+[36mElement selectors should not be overqualified[39m
+[90m    1838. [39m.table [35mth[39m.span6
+
+[36mElement selectors should not be overqualified[39m
+[90m    1843. [39m.table [35mtd[39m.span7
+
+[36mElement selectors should not be overqualified[39m
+[90m    1844. [39m.table [35mth[39m.span7
+
+[36mElement selectors should not be overqualified[39m
+[90m    1849. [39m.table [35mtd[39m.span8
+
+[36mElement selectors should not be overqualified[39m
+[90m    1850. [39m.table [35mth[39m.span8
+
+[36mElement selectors should not be overqualified[39m
+[90m    1855. [39m.table [35mtd[39m.span9
+
+[36mElement selectors should not be overqualified[39m
+[90m    1856. [39m.table [35mth[39m.span9
+
+[36mElement selectors should not be overqualified[39m
+[90m    1861. [39m.table [35mtd[39m.span10
+
+[36mElement selectors should not be overqualified[39m
+[90m    1862. [39m.table [35mth[39m.span10
+
+[36mElement selectors should not be overqualified[39m
+[90m    1867. [39m.table [35mtd[39m.span11
+
+[36mElement selectors should not be overqualified[39m
+[90m    1868. [39m.table [35mth[39m.span11
+
+[36mElement selectors should not be overqualified[39m
+[90m    1873. [39m.table [35mtd[39m.span12
+
+[36mElement selectors should not be overqualified[39m
+[90m    1874. [39m.table [35mth[39m.span12
+
+[36mElement selectors should not be overqualified[39m
+[90m    1879. [39m.table tbody [35mtr[39m.success td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1882. [39m.table tbody [35mtr[39m.error td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1885. [39m.table tbody [35mtr[39m.warning td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1888. [39m.table tbody [35mtr[39m.info td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1891. [39m.table-hover tbody [35mtr[39m.success:hover td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1894. [39m.table-hover tbody [35mtr[39m.error:hover td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1897. [39m.table-hover tbody [35mtr[39m.warning:hover td
+
+[36mElement selectors should not be overqualified[39m
+[90m    1900. [39m.table-hover tbody [35mtr[39m.info:hover td
+
+[36mUniversal selectors should be avoided[39m
+[90m    1904. [39m [class[35m*[39m=" icon-"]
+
+[36mIncorrect property order for rule[35m "[class^="icon-"], [class*=" icon-"]"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    1905. [39m display: inline-block;
+[90m    1906. [39m width: 14px;
+[90m    1907. [39m height: 14px;
+[90m    1908. [39m margin-top: 1px;
+[90m    1909. [39m *margin-right: .3em;
+[90m    1910. [39m line-height: 14px;
+[90m    1911. [39m vertical-align: text-top;
+[90m    1912. [39m background-image: url("../img/glyphicons-halflings.png");
+[90m    1913. [39m background-position: 14px 14px;
+[90m    1914. [39m background-repeat: no-repeat;
+
+[36mUniversal selectors should be avoided[39m
+[90m    1919. [39m .nav-pills > .active > a > [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1921. [39m .nav-list > .active > a > [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1923. [39m .navbar-inverse .nav > .active > a > [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1925. [39m .dropdown-menu > li > a:hover > [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1927. [39m .dropdown-menu > .active > a > [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    1929. [39m .dropdown-submenu:hover > a > [class[35m*[39m=" icon-"]
+
+[36mIncorrect property order for rule[35m ".icon-random"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2260. [39m width: 16px;
+[90m    2261. [39m background-position: -216px -120px;
+
+[36mIncorrect property order for rule[35m ".icon-folder-open"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2285. [39m width: 16px;
+[90m    2286. [39m background-position: -408px -120px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    2405. [39m.[35mdropdown-menu[39m.pull-right
+
+[36mIncorrect property order for rule[35m ".dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2430. [39m color: #ffffff;
+[90m    2431. [39m text-decoration: none;
+[90m    2432. [39m background-color: #0081c2;
+[90m    2433. [39m background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+[90m    2434. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+[90m    2435. [39m background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+[90m    2436. [39m background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+[90m    2437. [39m background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+[90m    2438. [39m background-repeat: repeat-x;
+[90m    2439. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+
+[36mIncorrect property order for rule[35m ".dropdown-menu .active > a, .dropdown-menu .active > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2443. [39m color: #ffffff;
+[90m    2444. [39m text-decoration: none;
+[90m    2445. [39m background-color: #0081c2;
+[90m    2446. [39m background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+[90m    2447. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+[90m    2448. [39m background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+[90m    2449. [39m background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+[90m    2450. [39m background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+[90m    2451. [39m background-repeat: repeat-x;
+[90m    2452. [39m outline: 0;
+[90m    2453. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+
+[36mIncorrect property order for rule[35m ".dropdown-menu .disabled > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2460. [39m text-decoration: none;
+[90m    2461. [39m cursor: default;
+[90m    2462. [39m background-color: transparent;
+[90m    2463. [39m background-image: none;
+[90m    2464. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mIncorrect property order for rule[35m ".dropdown-submenu > a:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2513. [39m display: block;
+[90m    2514. [39m float: right;
+[90m    2515. [39m width: 0;
+[90m    2516. [39m height: 0;
+[90m    2517. [39m margin-top: 5px;
+[90m    2518. [39m margin-right: -10px;
+[90m    2519. [39m border-color: transparent;
+[90m    2520. [39m border-left-color: #cccccc;
+[90m    2521. [39m border-style: solid;
+[90m    2522. [39m border-width: 5px 0 5px 5px;
+[90m    2523. [39m content: " ";
+
+[36mElement selectors should not be overqualified[39m
+[90m    2528. [39m.[35mdropdown-submenu[39m.pull-left
+
+[36mElement selectors should not be overqualified[39m
+[90m    2531. [39m.[35mdropdown-submenu[39m.pull-left > .dropdown-menu
+
+[36mIncorrect property order for rule[35m ".dropdown .dropdown-menu .nav-header"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2539. [39m padding-right: 20px;
+[90m    2540. [39m padding-left: 20px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    2585. [39m.[35mfade[39m.in
+
+[36mElement selectors should not be overqualified[39m
+[90m    2597. [39m.[35mcollapse[39m.in
+
+[36mElement selectors should not be overqualified[39m
+[90m    2617. [39m[35mbutton[39m.close
+
+[36mIncorrect property order for rule[35m ".btn"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2625. [39m display: inline-block;
+[90m    2626. [39m *display: inline;
+[90m    2627. [39m padding: 8px 12px;
+[90m    2628. [39m margin-bottom: 0;
+[90m    2629. [39m *margin-left: .3em;
+[90m    2630. [39m font-family: "Varela";
+[90m    2631. [39m font-size: 14px;
+[90m    2632. [39m font-weight: bold;
+[90m    2633. [39m line-height: 20px;
+[90m    2634. [39m color: #333333;
+[90m    2635. [39m text-align: center;
+[90m    2636. [39m text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+[90m    2637. [39m vertical-align: middle;
+[90m    2638. [39m cursor: pointer;
+[90m    2639. [39m background-color: #f5f5f5;
+[90m    2640. [39m *background-color: #e6e6e6;
+[90m    2641. [39m background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+[90m    2642. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+[90m    2643. [39m background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+[90m    2644. [39m background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+[90m    2645. [39m background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+[90m    2646. [39m background-repeat: repeat-x;
+[90m    2647. [39m border: 0;
+[90m    2648. [39m *border: 0;
+[90m    2649. [39m border-bottom: 2px solid #bbbbbb;
+[90m    2650. [39m border-color: #e6e6e6 #e6e6e6 #bbbbbb;
+[90m    2651. [39m -webkit-border-radius: 4px;
+[90m    2652. [39m -moz-border-radius: 4px;
+[90m    2653. [39m border-radius: 4px;
+[90m    2654. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+[90m    2655. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+[90m    2656. [39m *zoom: 1;
+[90m    2657. [39m -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+[90m    2658. [39m -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+[90m    2659. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2667. [39m.[35mbtn[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2668. [39m.[35mbtn[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2675. [39m.[35mbtn[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2695. [39m.[35mbtn[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2703. [39m.[35mbtn[39m.disabled
+
+[36mUniversal selectors should be avoided[39m
+[90m    2721. [39m .btn-large [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    2732. [39m .btn-small [class[35m*[39m=" icon-"]
+
+[36mUniversal selectors should be avoided[39m
+[90m    2736. [39m .btn-mini [class[35m*[39m=" icon-"]
+
+[36mIncorrect property order for rule[35m ".btn-block"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2747. [39m display: block;
+[90m    2748. [39m width: 100%;
+[90m    2749. [39m padding-right: 0;
+[90m    2750. [39m padding-left: 0;
+[90m    2751. [39m -webkit-box-sizing: border-box;
+[90m    2752. [39m -moz-box-sizing: border-box;
+[90m    2753. [39m box-sizing: border-box;
+
+[36mElement selectors should not be overqualified[39m
+[90m    2763. [39m.[35mbtn-primary[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2764. [39m.[35mbtn-warning[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2765. [39m.[35mbtn-danger[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2766. [39m.[35mbtn-success[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2767. [39m.[35mbtn-info[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2768. [39m.[35mbtn-inverse[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-primary"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2775. [39m color: #ffffff;
+[90m    2776. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    2777. [39m background-color: #3378b5;
+[90m    2778. [39m *background-color: #286499;
+[90m    2779. [39m background-image: -moz-linear-gradient(top, #3b85c7, #286499);
+[90m    2780. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b85c7), to(#286499));
+[90m    2781. [39m background-image: -webkit-linear-gradient(top, #3b85c7, #286499);
+[90m    2782. [39m background-image: -o-linear-gradient(top, #3b85c7, #286499);
+[90m    2783. [39m background-image: linear-gradient(to bottom, #3b85c7, #286499);
+[90m    2784. [39m background-repeat: repeat-x;
+[90m    2785. [39m border-color: #286499 #286499 #165181;
+[90m    2786. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b85c7', endColorstr='#ff286499', GradientType=0);
+[90m    2787. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2793. [39m.[35mbtn-primary[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2794. [39m.[35mbtn-primary[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2801. [39m.[35mbtn-primary[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-warning"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2805. [39m color: #ffffff;
+[90m    2806. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    2807. [39m background-color: #faa732;
+[90m    2808. [39m *background-color: #f89406;
+[90m    2809. [39m background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+[90m    2810. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+[90m    2811. [39m background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+[90m    2812. [39m background-image: -o-linear-gradient(top, #fbb450, #f89406);
+[90m    2813. [39m background-image: linear-gradient(to bottom, #fbb450, #f89406);
+[90m    2814. [39m background-repeat: repeat-x;
+[90m    2815. [39m border-color: #f89406 #f89406 #ad6704;
+[90m    2816. [39m border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+[90m    2817. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+[90m    2818. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2824. [39m.[35mbtn-warning[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2825. [39m.[35mbtn-warning[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2832. [39m.[35mbtn-warning[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-danger"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2836. [39m color: #ffffff;
+[90m    2837. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    2838. [39m background-color: #da4f49;
+[90m    2839. [39m *background-color: #bd362f;
+[90m    2840. [39m background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+[90m    2841. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+[90m    2842. [39m background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+[90m    2843. [39m background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+[90m    2844. [39m background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+[90m    2845. [39m background-repeat: repeat-x;
+[90m    2846. [39m border-color: #bd362f #bd362f #802420;
+[90m    2847. [39m border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+[90m    2848. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+[90m    2849. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2855. [39m.[35mbtn-danger[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2856. [39m.[35mbtn-danger[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2863. [39m.[35mbtn-danger[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-success"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2867. [39m color: #ffffff;
+[90m    2868. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    2869. [39m background-color: #5bb75b;
+[90m    2870. [39m *background-color: #51a351;
+[90m    2871. [39m background-image: -moz-linear-gradient(top, #62c462, #51a351);
+[90m    2872. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+[90m    2873. [39m background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+[90m    2874. [39m background-image: -o-linear-gradient(top, #62c462, #51a351);
+[90m    2875. [39m background-image: linear-gradient(to bottom, #62c462, #51a351);
+[90m    2876. [39m background-repeat: repeat-x;
+[90m    2877. [39m border-color: #51a351 #51a351 #387038;
+[90m    2878. [39m border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+[90m    2879. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+[90m    2880. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2886. [39m.[35mbtn-success[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2887. [39m.[35mbtn-success[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2894. [39m.[35mbtn-success[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-info"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2898. [39m color: #ffffff;
+[90m    2899. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    2900. [39m background-color: #49afcd;
+[90m    2901. [39m *background-color: #2f96b4;
+[90m    2902. [39m background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+[90m    2903. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+[90m    2904. [39m background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+[90m    2905. [39m background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+[90m    2906. [39m background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+[90m    2907. [39m background-repeat: repeat-x;
+[90m    2908. [39m border-color: #2f96b4 #2f96b4 #1f6377;
+[90m    2909. [39m border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+[90m    2910. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+[90m    2911. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2917. [39m.[35mbtn-info[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2918. [39m.[35mbtn-info[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2925. [39m.[35mbtn-info[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-inverse"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2929. [39m color: #ffffff;
+[90m    2930. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    2931. [39m background-color: #969696;
+[90m    2932. [39m *background-color: #838383;
+[90m    2933. [39m background-image: -moz-linear-gradient(top, #a2a2a2, #838383);
+[90m    2934. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a2a2a2), to(#838383));
+[90m    2935. [39m background-image: -webkit-linear-gradient(top, #a2a2a2, #838383);
+[90m    2936. [39m background-image: -o-linear-gradient(top, #a2a2a2, #838383);
+[90m    2937. [39m background-image: linear-gradient(to bottom, #a2a2a2, #838383);
+[90m    2938. [39m background-repeat: repeat-x;
+[90m    2939. [39m border-color: #838383 #838383 #6c6c6c;
+[90m    2940. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa2a2a2', endColorstr='#ff838383', GradientType=0);
+[90m    2941. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    2947. [39m.[35mbtn-inverse[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2948. [39m.[35mbtn-inverse[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    2955. [39m.[35mbtn-inverse[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    2958. [39m[35mbutton[39m.btn
+
+[36mElement selectors should not be overqualified[39m
+[90m    2963. [39m[35mbutton[39m.btn::-moz-focus-inner
+
+[36mElement selectors should not be overqualified[39m
+[90m    2968. [39m[35mbutton[39m.btn.btn-large
+
+[36mElement selectors should not be overqualified[39m
+[90m    2969. [39minput[type="submit"].[35mbtn[39m.btn-large
+
+[36mElement selectors should not be overqualified[39m
+[90m    2973. [39m[35mbutton[39m.btn.btn-small
+
+[36mElement selectors should not be overqualified[39m
+[90m    2974. [39minput[type="submit"].[35mbtn[39m.btn-small
+
+[36mElement selectors should not be overqualified[39m
+[90m    2978. [39m[35mbutton[39m.btn.btn-mini
+
+[36mElement selectors should not be overqualified[39m
+[90m    2979. [39minput[type="submit"].[35mbtn[39m.btn-mini
+
+[36mIncorrect property order for rule[35m ".btn-link"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    2993. [39m color: #0088cc;
+[90m    2994. [39m cursor: pointer;
+[90m    2995. [39m border-color: transparent;
+[90m    2996. [39m -webkit-border-radius: 0;
+[90m    2997. [39m -moz-border-radius: 0;
+[90m    2998. [39m border-radius: 0;
+
+[36mIncorrect property order for rule[35m ".btn-group"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3010. [39m position: relative;
+[90m    3011. [39m display: inline-block;
+[90m    3012. [39m *display: inline;
+[90m    3013. [39m *margin-left: .3em;
+[90m    3014. [39m font-size: 0;
+[90m    3015. [39m white-space: nowrap;
+[90m    3016. [39m vertical-align: middle;
+[90m    3017. [39m *zoom: 1;
+
+[36mIncorrect property order for rule[35m ".btn-toolbar"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3028. [39m margin-top: 10px;
+[90m    3029. [39m margin-bottom: 10px;
+[90m    3030. [39m font-size: 0;
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn:first-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3061. [39m margin-left: 0;
+[90m    3062. [39m -webkit-border-bottom-left-radius: 4px;
+[90m    3063. [39m border-bottom-left-radius: 4px;
+[90m    3064. [39m -webkit-border-top-left-radius: 4px;
+[90m    3065. [39m border-top-left-radius: 4px;
+[90m    3066. [39m -moz-border-radius-bottomleft: 4px;
+[90m    3067. [39m -moz-border-radius-topleft: 4px;
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn:last-child, .btn-group > .dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3071. [39m -webkit-border-top-right-radius: 4px;
+[90m    3072. [39m border-top-right-radius: 4px;
+[90m    3073. [39m -webkit-border-bottom-right-radius: 4px;
+[90m    3074. [39m border-bottom-right-radius: 4px;
+[90m    3075. [39m -moz-border-radius-topright: 4px;
+[90m    3076. [39m -moz-border-radius-bottomright: 4px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3078. [39m.btn-group > .[35mbtn[39m.large:first-child
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn.large:first-child"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3079. [39m margin-left: 0;
+[90m    3080. [39m -webkit-border-bottom-left-radius: 6px;
+[90m    3081. [39m border-bottom-left-radius: 6px;
+[90m    3082. [39m -webkit-border-top-left-radius: 6px;
+[90m    3083. [39m border-top-left-radius: 6px;
+[90m    3084. [39m -moz-border-radius-bottomleft: 6px;
+[90m    3085. [39m -moz-border-radius-topleft: 6px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3087. [39m.btn-group > .[35mbtn[39m.large:last-child
+
+[36mElement selectors should not be overqualified[39m
+[90m    3088. [39m.btn-group > .[35mlarge[39m.dropdown-toggle
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn.large:last-child, .btn-group > .large.dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3089. [39m -webkit-border-top-right-radius: 6px;
+[90m    3090. [39m border-top-right-radius: 6px;
+[90m    3091. [39m -webkit-border-bottom-right-radius: 6px;
+[90m    3092. [39m border-bottom-right-radius: 6px;
+[90m    3093. [39m -moz-border-radius-topright: 6px;
+[90m    3094. [39m -moz-border-radius-bottomright: 6px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3099. [39m.btn-group > .[35mbtn[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    3103. [39m.[35mbtn-group[39m.open .dropdown-toggle
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn + .dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3107. [39m *padding-top: 5px;
+[90m    3108. [39m padding-right: 8px;
+[90m    3109. [39m *padding-bottom: 5px;
+[90m    3110. [39m padding-left: 8px;
+[90m    3111. [39m -webkit-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+[90m    3112. [39m -moz-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+[90m    3113. [39m box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn-mini + .dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3116. [39m *padding-top: 2px;
+[90m    3117. [39m padding-right: 5px;
+[90m    3118. [39m *padding-bottom: 2px;
+[90m    3119. [39m padding-left: 5px;
+
+[36mIncorrect property order for rule[35m ".btn-group > .btn-large + .dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3126. [39m *padding-top: 7px;
+[90m    3127. [39m padding-right: 12px;
+[90m    3128. [39m *padding-bottom: 7px;
+[90m    3129. [39m padding-left: 12px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3131. [39m.[35mbtn-group[39m.open .dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3137. [39m.[35mbtn-group[39m.open .btn.dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3140. [39m.[35mbtn-group[39m.open .btn-primary.dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3143. [39m.[35mbtn-group[39m.open .btn-warning.dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3146. [39m.[35mbtn-group[39m.open .btn-danger.dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3149. [39m.[35mbtn-group[39m.open .btn-success.dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3152. [39m.[35mbtn-group[39m.open .btn-info.dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3155. [39m.[35mbtn-group[39m.open .btn-inverse.dropdown-toggle
+
+[36mIncorrect property order for rule[35m ".btn-large .caret"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3168. [39m border-top-width: 5px;
+[90m    3169. [39m border-right-width: 5px;
+[90m    3170. [39m border-left-width: 5px;
+
+[36mIncorrect property order for rule[35m ".btn-group-vertical > .btn + .btn"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3200. [39m margin-top: -1px;
+[90m    3201. [39m margin-left: 0;
+
+[36mIncorrect property order for rule[35m ".alert-success"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3247. [39m color: #468847;
+[90m    3248. [39m background-color: #dff0d8;
+[90m    3249. [39m border-color: #d6e9c6;
+
+[36mIncorrect property order for rule[35m ".alert-danger, .alert-error"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3256. [39m color: #b94a48;
+[90m    3257. [39m background-color: #f2dede;
+[90m    3258. [39m border-color: #eed3d7;
+
+[36mIncorrect property order for rule[35m ".alert-info"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3265. [39m color: #3a87ad;
+[90m    3266. [39m background-color: #d9edf7;
+[90m    3267. [39m border-color: #bce8f1;
+
+[36mIncorrect property order for rule[35m ".nav"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3284. [39m margin-bottom: 20px;
+[90m    3285. [39m margin-left: 0;
+[90m    3286. [39m list-style: none;
+
+[36mIncorrect property order for rule[35m ".nav-list"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3315. [39m padding-right: 15px;
+[90m    3316. [39m padding-left: 15px;
+[90m    3317. [39m margin-bottom: 0;
+
+[36mIncorrect property order for rule[35m ".nav-list > li > a, .nav-list .nav-header"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3321. [39m margin-right: -15px;
+[90m    3322. [39m margin-left: -15px;
+[90m    3323. [39m text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+
+[36mUniversal selectors should be avoided[39m
+[90m    3335. [39m .nav-list [class[35m*[39m=" icon-"]
+
+[36mIncorrect property order for rule[35m ".nav-tabs:before, .nav-pills:before, .nav-tabs:after, .nav-pills:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3355. [39m display: table;
+[90m    3356. [39m line-height: 0;
+[90m    3357. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".nav-tabs > .active > a, .nav-tabs > .active > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3394. [39m color: #555555;
+[90m    3395. [39m cursor: default;
+[90m    3396. [39m background-color: #ffffff;
+[90m    3397. [39m border: 1px solid #ddd;
+[90m    3398. [39m border-bottom-color: transparent;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3420. [39m.[35mnav-tabs[39m.nav-stacked
+
+[36mElement selectors should not be overqualified[39m
+[90m    3423. [39m.[35mnav-tabs[39m.nav-stacked > li > a
+
+[36mElement selectors should not be overqualified[39m
+[90m    3429. [39m.[35mnav-tabs[39m.nav-stacked > li:first-child > a
+
+[36mIncorrect property order for rule[35m ".nav-tabs.nav-stacked > li:first-child > a"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3430. [39m -webkit-border-top-right-radius: 4px;
+[90m    3431. [39m border-top-right-radius: 4px;
+[90m    3432. [39m -webkit-border-top-left-radius: 4px;
+[90m    3433. [39m border-top-left-radius: 4px;
+[90m    3434. [39m -moz-border-radius-topright: 4px;
+[90m    3435. [39m -moz-border-radius-topleft: 4px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3437. [39m.[35mnav-tabs[39m.nav-stacked > li:last-child > a
+
+[36mIncorrect property order for rule[35m ".nav-tabs.nav-stacked > li:last-child > a"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3438. [39m -webkit-border-bottom-right-radius: 4px;
+[90m    3439. [39m border-bottom-right-radius: 4px;
+[90m    3440. [39m -webkit-border-bottom-left-radius: 4px;
+[90m    3441. [39m border-bottom-left-radius: 4px;
+[90m    3442. [39m -moz-border-radius-bottomright: 4px;
+[90m    3443. [39m -moz-border-radius-bottomleft: 4px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3445. [39m.[35mnav-tabs[39m.nav-stacked > li > a:hover
+
+[36mIncorrect property order for rule[35m ".nav-tabs.nav-stacked > li > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3446. [39m z-index: 2;
+[90m    3447. [39m border-color: #ddd;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3449. [39m.[35mnav-pills[39m.nav-stacked > li > a
+
+[36mElement selectors should not be overqualified[39m
+[90m    3452. [39m.[35mnav-pills[39m.nav-stacked > li:last-child > a
+
+[36mIncorrect property order for rule[35m ".nav .dropdown-toggle .caret"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3466. [39m margin-top: 6px;
+[90m    3467. [39m border-top-color: #0088cc;
+[90m    3468. [39m border-bottom-color: #0088cc;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3486. [39m.nav > .[35mdropdown[39m.active > a:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m    3491. [39m.nav > [35mli[39m.dropdown.open.active > a:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m    3496. [39m.nav [35mli[39m.dropdown.open .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3497. [39m.nav [35mli[39m.dropdown.open.active .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3498. [39m.nav [35mli[39m.dropdown.open a:hover .caret
+
+[36mIncorrect property order for rule[35m ".tabbable:before, .tabbable:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3512. [39m display: table;
+[90m    3513. [39m line-height: 0;
+[90m    3514. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".tabs-below > .nav-tabs > li > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3548. [39m border-top-color: #ddd;
+[90m    3549. [39m border-bottom-color: transparent;
+
+[36mIncorrect property order for rule[35m ".nav > .disabled > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3607. [39m text-decoration: none;
+[90m    3608. [39m cursor: default;
+[90m    3609. [39m background-color: transparent;
+
+[36mIncorrect property order for rule[35m ".navbar"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3612. [39m *position: relative;
+[90m    3613. [39m *z-index: 2;
+[90m    3614. [39m margin-bottom: 20px;
+[90m    3615. [39m overflow: visible;
+
+[36mIncorrect property order for rule[35m ".navbar-inner"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3618. [39m min-height: 40px;
+[90m    3619. [39m padding-right: 20px;
+[90m    3620. [39m padding-left: 20px;
+[90m    3621. [39m background-color: #fafafa;
+[90m    3622. [39m background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+[90m    3623. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+[90m    3624. [39m background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+[90m    3625. [39m background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+[90m    3626. [39m background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+[90m    3627. [39m background-repeat: repeat-x;
+[90m    3628. [39m border: 1px solid #d4d4d4;
+[90m    3629. [39m -webkit-border-radius: 4px;
+[90m    3630. [39m -moz-border-radius: 4px;
+[90m    3631. [39m border-radius: 4px;
+[90m    3632. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+[90m    3633. [39m *zoom: 1;
+[90m    3634. [39m -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+[90m    3635. [39m -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+[90m    3636. [39m box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+
+[36mIncorrect property order for rule[35m ".navbar-inner:before, .navbar-inner:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3640. [39m display: table;
+[90m    3641. [39m line-height: 0;
+[90m    3642. [39m content: "";
+
+[36mElement selectors should not be overqualified[39m
+[90m    3650. [39m.[35mnav-collapse[39m.collapse
+
+[36mIncorrect property order for rule[35m ".navbar .brand"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3655. [39m display: block;
+[90m    3656. [39m float: left;
+[90m    3657. [39m padding: 10px 20px 10px;
+[90m    3658. [39m margin-left: -20px;
+[90m    3659. [39m font-size: 20px;
+[90m    3660. [39m font-weight: 200;
+[90m    3661. [39m color: #777777;
+[90m    3662. [39m text-shadow: 0 1px 0 #ffffff;
+
+[36mIncorrect property order for rule[35m ".navbar .divider-vertical"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3679. [39m height: 40px;
+[90m    3680. [39m margin: 0 9px;
+[90m    3681. [39m border-right: 1px solid #ffffff;
+[90m    3682. [39m border-left: 1px solid #f2f2f2;
+
+[36mIncorrect property order for rule[35m ".navbar-form:before, .navbar-form:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3699. [39m display: table;
+[90m    3700. [39m line-height: 0;
+[90m    3701. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".navbar-search .search-query"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3739. [39m padding: 4px 14px;
+[90m    3740. [39m margin-bottom: 0;
+[90m    3741. [39m font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+[90m    3742. [39m font-size: 13px;
+[90m    3743. [39m font-weight: normal;
+[90m    3744. [39m line-height: 1;
+[90m    3745. [39m -webkit-border-radius: 15px;
+[90m    3746. [39m -moz-border-radius: 15px;
+[90m    3747. [39m border-radius: 15px;
+
+[36mIncorrect property order for rule[35m ".navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3775. [39m padding-right: 0;
+[90m    3776. [39m padding-left: 0;
+[90m    3777. [39m -webkit-border-radius: 0;
+[90m    3778. [39m -moz-border-radius: 0;
+[90m    3779. [39m border-radius: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3810. [39m.navbar .[35mnav[39m.pull-right
+
+[36mIncorrect property order for rule[35m ".navbar .nav > li > a:focus, .navbar .nav > li > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3829. [39m color: #333333;
+[90m    3830. [39m text-decoration: none;
+[90m    3831. [39m background-color: transparent;
+
+[36mIncorrect property order for rule[35m ".navbar .btn-navbar"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3844. [39m display: none;
+[90m    3845. [39m float: right;
+[90m    3846. [39m padding: 7px 10px;
+[90m    3847. [39m margin-right: 5px;
+[90m    3848. [39m margin-left: 5px;
+[90m    3849. [39m color: #ffffff;
+[90m    3850. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    3851. [39m background-color: #ededed;
+[90m    3852. [39m *background-color: #e5e5e5;
+[90m    3853. [39m background-image: -moz-linear-gradient(top, #f2f2f2, #e5e5e5);
+[90m    3854. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e5e5e5));
+[90m    3855. [39m background-image: -webkit-linear-gradient(top, #f2f2f2, #e5e5e5);
+[90m    3856. [39m background-image: -o-linear-gradient(top, #f2f2f2, #e5e5e5);
+[90m    3857. [39m background-image: linear-gradient(to bottom, #f2f2f2, #e5e5e5);
+[90m    3858. [39m background-repeat: repeat-x;
+[90m    3859. [39m border-color: #e5e5e5 #e5e5e5 #bfbfbf;
+[90m    3860. [39m border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+[90m    3861. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ffe5e5e5', GradientType=0);
+[90m    3862. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+[90m    3863. [39m -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+[90m    3864. [39m -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+[90m    3865. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+
+[36mElement selectors should not be overqualified[39m
+[90m    3871. [39m.navbar .[35mbtn-navbar[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    3872. [39m.navbar .[35mbtn-navbar[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    3879. [39m.navbar .[35mbtn-navbar[39m.active
+
+[36mIncorrect property order for rule[35m ".navbar .nav > li > .dropdown-menu:before"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3898. [39m position: absolute;
+[90m    3899. [39m top: -7px;
+[90m    3900. [39m left: 9px;
+[90m    3901. [39m display: inline-block;
+[90m    3902. [39m border-right: 7px solid transparent;
+[90m    3903. [39m border-bottom: 7px solid #ccc;
+[90m    3904. [39m border-left: 7px solid transparent;
+[90m    3905. [39m border-bottom-color: rgba(0, 0, 0, 0.2);
+[90m    3906. [39m content: '';
+
+[36mIncorrect property order for rule[35m ".navbar .nav > li > .dropdown-menu:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3909. [39m position: absolute;
+[90m    3910. [39m top: -6px;
+[90m    3911. [39m left: 10px;
+[90m    3912. [39m display: inline-block;
+[90m    3913. [39m border-right: 6px solid transparent;
+[90m    3914. [39m border-bottom: 6px solid #ffffff;
+[90m    3915. [39m border-left: 6px solid transparent;
+[90m    3916. [39m content: '';
+
+[36mIncorrect property order for rule[35m ".navbar-fixed-bottom .nav > li > .dropdown-menu:before"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3919. [39m top: auto;
+[90m    3920. [39m bottom: -7px;
+[90m    3921. [39m border-top: 7px solid #ccc;
+[90m    3922. [39m border-bottom: 0;
+[90m    3923. [39m border-top-color: rgba(0, 0, 0, 0.2);
+
+[36mIncorrect property order for rule[35m ".navbar-fixed-bottom .nav > li > .dropdown-menu:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3926. [39m top: auto;
+[90m    3927. [39m bottom: -6px;
+[90m    3928. [39m border-top: 6px solid #ffffff;
+[90m    3929. [39m border-bottom: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3931. [39m.navbar .nav [35mli[39m.dropdown > a:hover .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3935. [39m.navbar .nav [35mli[39m.dropdown.open > .dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3936. [39m.navbar .nav [35mli[39m.dropdown.active > .dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    3937. [39m.navbar .nav [35mli[39m.dropdown.open.active > .dropdown-toggle
+
+[36mIncorrect property order for rule[35m ".navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3938. [39m color: #555555;
+[90m    3939. [39m background-color: #e5e5e5;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3941. [39m.navbar .nav [35mli[39m.dropdown > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3945. [39m.navbar .nav [35mli[39m.dropdown.open > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3946. [39m.navbar .nav [35mli[39m.dropdown.active > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3947. [39m.navbar .nav [35mli[39m.dropdown.open.active > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    3952. [39m.navbar .nav > li > .[35mdropdown-menu[39m.pull-right
+
+[36mIncorrect property order for rule[35m ".navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3953. [39m right: 0;
+[90m    3954. [39m left: auto;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3957. [39m.navbar .nav > li > .[35mdropdown-menu[39m.pull-right:before
+
+[36mIncorrect property order for rule[35m ".navbar .pull-right > li > .dropdown-menu:before, .navbar .nav > li > .dropdown-menu.pull-right:before"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3958. [39m right: 12px;
+[90m    3959. [39m left: auto;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3962. [39m.navbar .nav > li > .[35mdropdown-menu[39m.pull-right:after
+
+[36mIncorrect property order for rule[35m ".navbar .pull-right > li > .dropdown-menu:after, .navbar .nav > li > .dropdown-menu.pull-right:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3963. [39m right: 13px;
+[90m    3964. [39m left: auto;
+
+[36mElement selectors should not be overqualified[39m
+[90m    3967. [39m.navbar .nav > li > .[35mdropdown-menu[39m.pull-right .dropdown-menu
+
+[36mIncorrect property order for rule[35m ".navbar .pull-right > li > .dropdown-menu .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3968. [39m right: 100%;
+[90m    3969. [39m left: auto;
+[90m    3970. [39m margin-right: -1px;
+[90m    3971. [39m margin-left: 0;
+[90m    3972. [39m -webkit-border-radius: 6px 0 6px 6px;
+[90m    3973. [39m -moz-border-radius: 6px 0 6px 6px;
+[90m    3974. [39m border-radius: 6px 0 6px 6px;
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .navbar-inner"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    3977. [39m background-color: #1b1b1b;
+[90m    3978. [39m background-image: -moz-linear-gradient(top, #222222, #111111);
+[90m    3979. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+[90m    3980. [39m background-image: -webkit-linear-gradient(top, #222222, #111111);
+[90m    3981. [39m background-image: -o-linear-gradient(top, #222222, #111111);
+[90m    3982. [39m background-image: linear-gradient(to bottom, #222222, #111111);
+[90m    3983. [39m background-repeat: repeat-x;
+[90m    3984. [39m border-color: #252525;
+[90m    3985. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4004. [39m color: #ffffff;
+[90m    4005. [39m background-color: transparent;
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .divider-vertical"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4020. [39m border-right-color: #222222;
+[90m    4021. [39m border-left-color: #111111;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4023. [39m.navbar-inverse .nav [35mli[39m.dropdown.open > .dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    4024. [39m.navbar-inverse .nav [35mli[39m.dropdown.active > .dropdown-toggle
+
+[36mElement selectors should not be overqualified[39m
+[90m    4025. [39m.navbar-inverse .nav [35mli[39m.dropdown.open.active > .dropdown-toggle
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4026. [39m color: #ffffff;
+[90m    4027. [39m background-color: #111111;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4029. [39m.navbar-inverse .nav [35mli[39m.dropdown > a:hover .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    4033. [39m.navbar-inverse .nav [35mli[39m.dropdown > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    4037. [39m.navbar-inverse .nav [35mli[39m.dropdown.open > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    4038. [39m.navbar-inverse .nav [35mli[39m.dropdown.active > .dropdown-toggle .caret
+
+[36mElement selectors should not be overqualified[39m
+[90m    4039. [39m.navbar-inverse .nav [35mli[39m.dropdown.open.active > .dropdown-toggle .caret
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .navbar-search .search-query:-moz-placeholder"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4056. [39m font-weight: bold;
+[90m    4057. [39m color: #cccccc;
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .navbar-search .search-query:-ms-input-placeholder"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4060. [39m font-weight: bold;
+[90m    4061. [39m color: #cccccc;
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .navbar-search .search-query::-webkit-input-placeholder"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4064. [39m font-weight: bold;
+[90m    4065. [39m color: #cccccc;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4068. [39m.navbar-inverse .navbar-search .[35msearch-query[39m.focused
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4069. [39m padding: 5px 15px;
+[90m    4070. [39m color: #333333;
+[90m    4071. [39m text-shadow: 0 1px 0 #ffffff;
+[90m    4072. [39m background-color: #ffffff;
+[90m    4073. [39m border: 0;
+[90m    4074. [39m outline: 0;
+[90m    4075. [39m -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+[90m    4076. [39m -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+[90m    4077. [39m box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+
+[36mIncorrect property order for rule[35m ".navbar-inverse .btn-navbar"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4080. [39m color: #ffffff;
+[90m    4081. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    4082. [39m background-color: #0e0e0e;
+[90m    4083. [39m *background-color: #040404;
+[90m    4084. [39m background-image: -moz-linear-gradient(top, #151515, #040404);
+[90m    4085. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
+[90m    4086. [39m background-image: -webkit-linear-gradient(top, #151515, #040404);
+[90m    4087. [39m background-image: -o-linear-gradient(top, #151515, #040404);
+[90m    4088. [39m background-image: linear-gradient(to bottom, #151515, #040404);
+[90m    4089. [39m background-repeat: repeat-x;
+[90m    4090. [39m border-color: #040404 #040404 #000000;
+[90m    4091. [39m border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+[90m    4092. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff151515', endColorstr='#ff040404', GradientType=0);
+[90m    4093. [39m filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+[36mElement selectors should not be overqualified[39m
+[90m    4099. [39m.navbar-inverse .[35mbtn-navbar[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m    4100. [39m.navbar-inverse .[35mbtn-navbar[39m.disabled
+
+[36mElement selectors should not be overqualified[39m
+[90m    4107. [39m.navbar-inverse .[35mbtn-navbar[39m.active
+
+[36mIncorrect property order for rule[35m ".breadcrumb > li"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4120. [39m display: inline-block;
+[90m    4121. [39m *display: inline;
+[90m    4122. [39m text-shadow: 0 1px 0 #ffffff;
+[90m    4123. [39m *zoom: 1;
+
+[36mIncorrect property order for rule[35m ".pagination ul"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4138. [39m display: inline-block;
+[90m    4139. [39m *display: inline;
+[90m    4140. [39m margin-bottom: 0;
+[90m    4141. [39m margin-left: 0;
+[90m    4142. [39m -webkit-border-radius: 4px;
+[90m    4143. [39m -moz-border-radius: 4px;
+[90m    4144. [39m border-radius: 4px;
+[90m    4145. [39m *zoom: 1;
+[90m    4146. [39m -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+[90m    4147. [39m -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+[90m    4148. [39m box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+[36mIncorrect property order for rule[35m ".pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4178. [39m color: #c0c0c0;
+[90m    4179. [39m cursor: default;
+[90m    4180. [39m background-color: transparent;
+
+[36mIncorrect property order for rule[35m ".pagination ul > li:first-child > a, .pagination ul > li:first-child > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4184. [39m border-left-width: 1px;
+[90m    4185. [39m -webkit-border-bottom-left-radius: 4px;
+[90m    4186. [39m border-bottom-left-radius: 4px;
+[90m    4187. [39m -webkit-border-top-left-radius: 4px;
+[90m    4188. [39m border-top-left-radius: 4px;
+[90m    4189. [39m -moz-border-radius-bottomleft: 4px;
+[90m    4190. [39m -moz-border-radius-topleft: 4px;
+
+[36mIncorrect property order for rule[35m ".pagination ul > li:last-child > a, .pagination ul > li:last-child > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4194. [39m -webkit-border-top-right-radius: 4px;
+[90m    4195. [39m border-top-right-radius: 4px;
+[90m    4196. [39m -webkit-border-bottom-right-radius: 4px;
+[90m    4197. [39m border-bottom-right-radius: 4px;
+[90m    4198. [39m -moz-border-radius-topright: 4px;
+[90m    4199. [39m -moz-border-radius-bottomright: 4px;
+
+[36mIncorrect property order for rule[35m ".pagination-large ul > li:first-child > a, .pagination-large ul > li:first-child > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4214. [39m -webkit-border-bottom-left-radius: 6px;
+[90m    4215. [39m border-bottom-left-radius: 6px;
+[90m    4216. [39m -webkit-border-top-left-radius: 6px;
+[90m    4217. [39m border-top-left-radius: 6px;
+[90m    4218. [39m -moz-border-radius-bottomleft: 6px;
+[90m    4219. [39m -moz-border-radius-topleft: 6px;
+
+[36mIncorrect property order for rule[35m ".pagination-large ul > li:last-child > a, .pagination-large ul > li:last-child > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4223. [39m -webkit-border-top-right-radius: 6px;
+[90m    4224. [39m border-top-right-radius: 6px;
+[90m    4225. [39m -webkit-border-bottom-right-radius: 6px;
+[90m    4226. [39m border-bottom-right-radius: 6px;
+[90m    4227. [39m -moz-border-radius-topright: 6px;
+[90m    4228. [39m -moz-border-radius-bottomright: 6px;
+
+[36mIncorrect property order for rule[35m ".pagination-mini ul > li:first-child > a, .pagination-small ul > li:first-child > a, .pagination-mini ul > li:first-child > span, .pagination-small ul > li:first-child > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4234. [39m -webkit-border-bottom-left-radius: 3px;
+[90m    4235. [39m border-bottom-left-radius: 3px;
+[90m    4236. [39m -webkit-border-top-left-radius: 3px;
+[90m    4237. [39m border-top-left-radius: 3px;
+[90m    4238. [39m -moz-border-radius-bottomleft: 3px;
+[90m    4239. [39m -moz-border-radius-topleft: 3px;
+
+[36mIncorrect property order for rule[35m ".pagination-mini ul > li:last-child > a, .pagination-small ul > li:last-child > a, .pagination-mini ul > li:last-child > span, .pagination-small ul > li:last-child > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4245. [39m -webkit-border-top-right-radius: 3px;
+[90m    4246. [39m border-top-right-radius: 3px;
+[90m    4247. [39m -webkit-border-bottom-right-radius: 3px;
+[90m    4248. [39m border-bottom-right-radius: 3px;
+[90m    4249. [39m -moz-border-radius-topright: 3px;
+[90m    4250. [39m -moz-border-radius-bottomright: 3px;
+
+[36mIncorrect property order for rule[35m ".pager"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4263. [39m margin: 20px 0;
+[90m    4264. [39m text-align: center;
+[90m    4265. [39m list-style: none;
+[90m    4266. [39m *zoom: 1;
+
+[36mIncorrect property order for rule[35m ".pager:before, .pager:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4270. [39m display: table;
+[90m    4271. [39m line-height: 0;
+[90m    4272. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > span"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4305. [39m color: #c0c0c0;
+[90m    4306. [39m cursor: default;
+[90m    4307. [39m background-color: #fff;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4318. [39m.[35mmodal-backdrop[39m.fade
+
+[36mElement selectors should not be overqualified[39m
+[90m    4322. [39m.[35mmodal-backdrop[39m.fade.in
+
+[36mIncorrect property order for rule[35m ".modal"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4327. [39m position: fixed;
+[90m    4328. [39m top: 10%;
+[90m    4329. [39m left: 50%;
+[90m    4330. [39m z-index: 1050;
+[90m    4331. [39m width: 560px;
+[90m    4332. [39m margin-left: -280px;
+[90m    4333. [39m background-color: #ffffff;
+[90m    4334. [39m border: 1px solid #999;
+[90m    4335. [39m border: 1px solid rgba(0, 0, 0, 0.3);
+[90m    4336. [39m *border: 1px solid #999;
+[90m    4337. [39m -webkit-border-radius: 6px;
+[90m    4338. [39m -moz-border-radius: 6px;
+[90m    4339. [39m border-radius: 6px;
+[90m    4340. [39m outline: none;
+[90m    4341. [39m -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+[90m    4342. [39m -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+[90m    4343. [39m box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+[90m    4344. [39m -webkit-background-clip: padding-box;
+[90m    4345. [39m -moz-background-clip: padding-box;
+[90m    4346. [39m background-clip: padding-box;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4350. [39m.[35mmodal[39m.fade
+
+[36mIncorrect property order for rule[35m ".modal.fade"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4351. [39m top: -25%;
+[90m    4352. [39m -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+[90m    4353. [39m -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+[90m    4354. [39m -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+[90m    4355. [39m transition: opacity 0.3s linear, top 0.3s ease-out;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4357. [39m.[35mmodal[39m.fade.in
+
+[36mIncorrect property order for rule[35m ".modal-body"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4372. [39m position: relative;
+[90m    4373. [39m max-height: 400px;
+[90m    4374. [39m padding: 15px;
+[90m    4375. [39m overflow-y: auto;
+
+[36mIncorrect property order for rule[35m ".modal-footer"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4381. [39m padding: 14px 15px 15px;
+[90m    4382. [39m margin-bottom: 0;
+[90m    4383. [39m text-align: right;
+[90m    4384. [39m background-color: #f5f5f5;
+[90m    4385. [39m border-top: 1px solid #ddd;
+[90m    4386. [39m -webkit-border-radius: 0 0 6px 6px;
+[90m    4387. [39m -moz-border-radius: 0 0 6px 6px;
+[90m    4388. [39m border-radius: 0 0 6px 6px;
+[90m    4389. [39m *zoom: 1;
+[90m    4390. [39m -webkit-box-shadow: inset 0 1px 0 #ffffff;
+[90m    4391. [39m -moz-box-shadow: inset 0 1px 0 #ffffff;
+[90m    4392. [39m box-shadow: inset 0 1px 0 #ffffff;
+
+[36mIncorrect property order for rule[35m ".modal-footer:before, .modal-footer:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4396. [39m display: table;
+[90m    4397. [39m line-height: 0;
+[90m    4398. [39m content: "";
+
+[36mIncorrect property order for rule[35m ".modal-footer .btn + .btn"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4404. [39m margin-bottom: 0;
+[90m    4405. [39m margin-left: 5px;
+
+[36mIncorrect property order for rule[35m ".tooltip"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4414. [39m position: absolute;
+[90m    4415. [39m z-index: 1030;
+[90m    4416. [39m display: block;
+[90m    4417. [39m padding: 5px;
+[90m    4418. [39m font-size: 11px;
+[90m    4419. [39m opacity: 0;
+[90m    4420. [39m filter: alpha(opacity=0);
+[90m    4421. [39m visibility: visible;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4423. [39m.[35mtooltip[39m.in
+
+[36mElement selectors should not be overqualified[39m
+[90m    4427. [39m.[35mtooltip[39m.top
+
+[36mElement selectors should not be overqualified[39m
+[90m    4430. [39m.[35mtooltip[39m.right
+
+[36mElement selectors should not be overqualified[39m
+[90m    4433. [39m.[35mtooltip[39m.bottom
+
+[36mElement selectors should not be overqualified[39m
+[90m    4436. [39m.[35mtooltip[39m.left
+
+[36mElement selectors should not be overqualified[39m
+[90m    4457. [39m.[35mtooltip[39m.top .tooltip-arrow
+
+[36mIncorrect property order for rule[35m ".tooltip.top .tooltip-arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4458. [39m bottom: 0;
+[90m    4459. [39m left: 50%;
+[90m    4460. [39m margin-left: -5px;
+[90m    4461. [39m border-top-color: #000000;
+[90m    4462. [39m border-width: 5px 5px 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4464. [39m.[35mtooltip[39m.right .tooltip-arrow
+
+[36mIncorrect property order for rule[35m ".tooltip.right .tooltip-arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4465. [39m top: 50%;
+[90m    4466. [39m left: 0;
+[90m    4467. [39m margin-top: -5px;
+[90m    4468. [39m border-right-color: #000000;
+[90m    4469. [39m border-width: 5px 5px 5px 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4471. [39m.[35mtooltip[39m.left .tooltip-arrow
+
+[36mIncorrect property order for rule[35m ".tooltip.left .tooltip-arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4472. [39m top: 50%;
+[90m    4473. [39m right: 0;
+[90m    4474. [39m margin-top: -5px;
+[90m    4475. [39m border-left-color: #000000;
+[90m    4476. [39m border-width: 5px 0 5px 5px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4478. [39m.[35mtooltip[39m.bottom .tooltip-arrow
+
+[36mIncorrect property order for rule[35m ".tooltip.bottom .tooltip-arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4479. [39m top: 0;
+[90m    4480. [39m left: 50%;
+[90m    4481. [39m margin-left: -5px;
+[90m    4482. [39m border-bottom-color: #000000;
+[90m    4483. [39m border-width: 0 5px 5px;
+
+[36mIncorrect property order for rule[35m ".popover"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4486. [39m position: absolute;
+[90m    4487. [39m top: 0;
+[90m    4488. [39m left: 0;
+[90m    4489. [39m z-index: 1010;
+[90m    4490. [39m display: none;
+[90m    4491. [39m width: 236px;
+[90m    4492. [39m padding: 1px;
+[90m    4493. [39m text-align: left;
+[90m    4494. [39m white-space: normal;
+[90m    4495. [39m background-color: #ffffff;
+[90m    4496. [39m border: 1px solid #ccc;
+[90m    4497. [39m border: 1px solid rgba(0, 0, 0, 0.2);
+[90m    4498. [39m -webkit-border-radius: 6px;
+[90m    4499. [39m -moz-border-radius: 6px;
+[90m    4500. [39m border-radius: 6px;
+[90m    4501. [39m -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+[90m    4502. [39m -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+[90m    4503. [39m box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+[90m    4504. [39m -webkit-background-clip: padding-box;
+[90m    4505. [39m -moz-background-clip: padding;
+[90m    4506. [39m background-clip: padding-box;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4508. [39m.[35mpopover[39m.top
+
+[36mElement selectors should not be overqualified[39m
+[90m    4511. [39m.[35mpopover[39m.right
+
+[36mElement selectors should not be overqualified[39m
+[90m    4514. [39m.[35mpopover[39m.bottom
+
+[36mElement selectors should not be overqualified[39m
+[90m    4517. [39m.[35mpopover[39m.left
+
+[36mIncorrect property order for rule[35m ".popover-title"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4521. [39m padding: 8px 14px;
+[90m    4522. [39m margin: 0;
+[90m    4523. [39m font-size: 14px;
+[90m    4524. [39m font-weight: normal;
+[90m    4525. [39m line-height: 18px;
+[90m    4526. [39m background-color: #f7f7f7;
+[90m    4527. [39m border-bottom: 1px solid #ebebeb;
+[90m    4528. [39m -webkit-border-radius: 5px 5px 0 0;
+[90m    4529. [39m -moz-border-radius: 5px 5px 0 0;
+[90m    4530. [39m border-radius: 5px 5px 0 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4551. [39m.[35mpopover[39m.top .arrow
+
+[36mIncorrect property order for rule[35m ".popover.top .arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4552. [39m bottom: -11px;
+[90m    4553. [39m left: 50%;
+[90m    4554. [39m margin-left: -11px;
+[90m    4555. [39m border-top-color: #999;
+[90m    4556. [39m border-top-color: rgba(0, 0, 0, 0.25);
+[90m    4557. [39m border-bottom-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4559. [39m.[35mpopover[39m.top .arrow:after
+
+[36mIncorrect property order for rule[35m ".popover.top .arrow:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4560. [39m bottom: 1px;
+[90m    4561. [39m margin-left: -10px;
+[90m    4562. [39m border-top-color: #ffffff;
+[90m    4563. [39m border-bottom-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4565. [39m.[35mpopover[39m.right .arrow
+
+[36mIncorrect property order for rule[35m ".popover.right .arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4566. [39m top: 50%;
+[90m    4567. [39m left: -11px;
+[90m    4568. [39m margin-top: -11px;
+[90m    4569. [39m border-right-color: #999;
+[90m    4570. [39m border-right-color: rgba(0, 0, 0, 0.25);
+[90m    4571. [39m border-left-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4573. [39m.[35mpopover[39m.right .arrow:after
+
+[36mIncorrect property order for rule[35m ".popover.right .arrow:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4574. [39m bottom: -10px;
+[90m    4575. [39m left: 1px;
+[90m    4576. [39m border-right-color: #ffffff;
+[90m    4577. [39m border-left-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4579. [39m.[35mpopover[39m.bottom .arrow
+
+[36mIncorrect property order for rule[35m ".popover.bottom .arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4580. [39m top: -11px;
+[90m    4581. [39m left: 50%;
+[90m    4582. [39m margin-left: -11px;
+[90m    4583. [39m border-bottom-color: #999;
+[90m    4584. [39m border-bottom-color: rgba(0, 0, 0, 0.25);
+[90m    4585. [39m border-top-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4587. [39m.[35mpopover[39m.bottom .arrow:after
+
+[36mIncorrect property order for rule[35m ".popover.bottom .arrow:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4588. [39m top: 1px;
+[90m    4589. [39m margin-left: -10px;
+[90m    4590. [39m border-bottom-color: #ffffff;
+[90m    4591. [39m border-top-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4593. [39m.[35mpopover[39m.left .arrow
+
+[36mIncorrect property order for rule[35m ".popover.left .arrow"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4594. [39m top: 50%;
+[90m    4595. [39m right: -11px;
+[90m    4596. [39m margin-top: -11px;
+[90m    4597. [39m border-left-color: #999;
+[90m    4598. [39m border-left-color: rgba(0, 0, 0, 0.25);
+[90m    4599. [39m border-right-width: 0;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4601. [39m.[35mpopover[39m.left .arrow:after
+
+[36mIncorrect property order for rule[35m ".popover.left .arrow:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4602. [39m right: 1px;
+[90m    4603. [39m bottom: -10px;
+[90m    4604. [39m border-left-color: #ffffff;
+[90m    4605. [39m border-right-width: 0;
+
+[36mIncorrect property order for rule[35m ".thumbnails:before, .thumbnails:after"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4614. [39m display: table;
+[90m    4615. [39m line-height: 0;
+[90m    4616. [39m content: "";
+
+[36mElement selectors should not be overqualified[39m
+[90m    4645. [39m[35ma[39m.thumbnail:hover
+
+[36mIncorrect property order for rule[35m ".thumbnail > img"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4652. [39m display: block;
+[90m    4653. [39m max-width: 100%;
+[90m    4654. [39m margin-right: auto;
+[90m    4655. [39m margin-left: auto;
+
+[36mIncorrect property order for rule[35m ".label, .badge"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4692. [39m display: inline-block;
+[90m    4693. [39m padding: 2px 4px;
+[90m    4694. [39m font-size: 11.844px;
+[90m    4695. [39m font-weight: bold;
+[90m    4696. [39m line-height: 14px;
+[90m    4697. [39m color: #ffffff;
+[90m    4698. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    4699. [39m white-space: nowrap;
+[90m    4700. [39m vertical-align: baseline;
+[90m    4701. [39m background-color: #c0c0c0;
+
+[36mIncorrect property order for rule[35m ".badge"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4709. [39m padding-right: 9px;
+[90m    4710. [39m padding-left: 9px;
+[90m    4711. [39m -webkit-border-radius: 9px;
+[90m    4712. [39m -moz-border-radius: 9px;
+[90m    4713. [39m border-radius: 9px;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4719. [39m[35ma[39m.label:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m    4720. [39m[35ma[39m.badge:hover
+
+[36mIncorrect property order for rule[35m ".progress"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4815. [39m height: 20px;
+[90m    4816. [39m margin-bottom: 20px;
+[90m    4817. [39m overflow: hidden;
+[90m    4818. [39m background-color: #f7f7f7;
+[90m    4819. [39m background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
+[90m    4820. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+[90m    4821. [39m background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
+[90m    4822. [39m background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
+[90m    4823. [39m background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+[90m    4824. [39m background-repeat: repeat-x;
+[90m    4825. [39m -webkit-border-radius: 4px;
+[90m    4826. [39m -moz-border-radius: 4px;
+[90m    4827. [39m border-radius: 4px;
+[90m    4828. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+[90m    4829. [39m -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+[90m    4830. [39m -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+[90m    4831. [39m box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+
+[36mIncorrect property order for rule[35m ".progress .bar"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4834. [39m float: left;
+[90m    4835. [39m width: 0%;
+[90m    4836. [39m height: 100%;
+[90m    4837. [39m font-size: 12px;
+[90m    4838. [39m color: #ffffff;
+[90m    4839. [39m text-align: center;
+[90m    4840. [39m text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+[90m    4841. [39m background-color: #0e90d2;
+[90m    4842. [39m background-image: -moz-linear-gradient(top, #149bdf, #0480be);
+[90m    4843. [39m background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+[90m    4844. [39m background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+[90m    4845. [39m background-image: -o-linear-gradient(top, #149bdf, #0480be);
+[90m    4846. [39m background-image: linear-gradient(to bottom, #149bdf, #0480be);
+[90m    4847. [39m background-repeat: repeat-x;
+[90m    4848. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+[90m    4849. [39m -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+[90m    4850. [39m -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+[90m    4851. [39m box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+[90m    4852. [39m -webkit-box-sizing: border-box;
+[90m    4853. [39m -moz-box-sizing: border-box;
+[90m    4854. [39m box-sizing: border-box;
+[90m    4855. [39m -webkit-transition: width 0.6s ease;
+[90m    4856. [39m -moz-transition: width 0.6s ease;
+[90m    4857. [39m -o-transition: width 0.6s ease;
+[90m    4858. [39m transition: width 0.6s ease;
+
+[36mNo need to specify units when a value is 0[39m
+[90m    4834. [39mwidth: 0[35m%[39m;
+
+[36mElement selectors should not be overqualified[39m
+[90m    4877. [39m.[35mprogress[39m.active .bar
+
+[36mElement selectors should not be overqualified[39m
+[90m    4895. [39m.[35mprogress-danger[39m.progress-striped .bar
+
+[36mElement selectors should not be overqualified[39m
+[90m    4915. [39m.[35mprogress-success[39m.progress-striped .bar
+
+[36mElement selectors should not be overqualified[39m
+[90m    4935. [39m.[35mprogress-info[39m.progress-striped .bar
+
+[36mElement selectors should not be overqualified[39m
+[90m    4955. [39m.[35mprogress-warning[39m.progress-striped .bar
+
+[36mIncorrect property order for rule[35m ".carousel-inner"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4994. [39m position: relative;
+[90m    4995. [39m width: 100%;
+[90m    4996. [39m overflow: hidden;
+
+[36mIncorrect property order for rule[35m ".carousel-inner > .item"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    4999. [39m position: relative;
+[90m    5000. [39m display: none;
+[90m    5001. [39m -webkit-transition: 0.6s ease-in-out left;
+[90m    5002. [39m -moz-transition: 0.6s ease-in-out left;
+[90m    5003. [39m -o-transition: 0.6s ease-in-out left;
+[90m    5004. [39m transition: 0.6s ease-in-out left;
+
+[36mElement selectors should not be overqualified[39m
+[90m    5030. [39m.carousel-inner > .[35mnext[39m.left
+
+[36mElement selectors should not be overqualified[39m
+[90m    5031. [39m.carousel-inner > .[35mprev[39m.right
+
+[36mElement selectors should not be overqualified[39m
+[90m    5034. [39m.carousel-inner > .[35mactive[39m.left
+
+[36mElement selectors should not be overqualified[39m
+[90m    5037. [39m.carousel-inner > .[35mactive[39m.right
+
+[36mElement selectors should not be overqualified[39m
+[90m    5060. [39m.[35mcarousel-control[39m.right
+
+[36mIncorrect property order for rule[35m ".carousel-control.right"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    5061. [39m right: 15px;
+[90m    5062. [39m left: auto;
+
+[36mIncorrect property order for rule[35m ".carousel-caption"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    5071. [39m position: absolute;
+[90m    5072. [39m right: 0;
+[90m    5073. [39m bottom: 0;
+[90m    5074. [39m left: 0;
+[90m    5075. [39m padding: 15px;
+[90m    5076. [39m background: #333333;
+[90m    5077. [39m background: rgba(0, 0, 0, 0.75);
+
+[36mIncorrect property order for rule[35m ".carousel-caption h4, .carousel-caption p"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    5081. [39m line-height: 20px;
+[90m    5082. [39m color: #ffffff;
+
+[36mIncorrect property order for rule[35m ".hero-unit h1"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m    5103. [39m margin-bottom: 0;
+[90m    5104. [39m font-size: 60px;
+[90m    5105. [39m line-height: 1;
+[90m    5106. [39m letter-spacing: -1px;
+[90m    5107. [39m color: inherit;
+

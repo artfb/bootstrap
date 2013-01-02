@@ -53,7 +53,10 @@ textarea {
 
 // Identify controls by their labels
 label {
+  color: #5f5f5f;
   display: block;
+  font-family: "Varela Round";
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -80,11 +83,11 @@ input[type="color"],
 .uneditable-input {
   display: inline-block;
   height: @baseLineHeight;
-  padding: 4px 6px;
+  padding: 8px 6px;
   margin-bottom: @baseLineHeight / 2;
   font-size: @baseFontSize;
   line-height: @baseLineHeight;
-  color: @gray;
+  color: @bricksInputGray;
   .border-radius(@inputBorderRadius);
   vertical-align: middle;
 }
@@ -118,8 +121,7 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   background-color: @inputBackground;
-  border: 1px solid @inputBorder;
-  .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+  .bricksInputBorder(@inputBorder);
   .transition(~"border linear .2s, box-shadow linear .2s");
 
   // Focus state
@@ -315,6 +317,10 @@ textarea[class*="span"],
 .controls-row .checkbox[class*="span"],
 .controls-row .radio[class*="span"] {
   padding-top: 5px;
+}
+
+.controls-row label{
+  margin-left: 0;
 }
 
 
@@ -650,7 +656,7 @@ legend + .control-group {
   .control-label {
     float: left;
     width: @horizontalComponentOffset - 20;
-    padding-top: 5px;
+    padding-top: 9px;
     text-align: right;
   }
   // Move over all input controls and content

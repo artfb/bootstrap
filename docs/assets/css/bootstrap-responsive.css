@@ -12,6 +12,8 @@
   width: device-width;
 }
 
+/*@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);*/
+
 .clearfix {
   *zoom: 1;
 }
@@ -1008,7 +1010,7 @@
   }
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
-    color: #999999;
+    color: #c0c0c0;
   }
   .navbar-inverse .nav-collapse .nav > li > a:hover,
   .navbar-inverse .nav-collapse .dropdown-menu a:hover {

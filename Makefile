@@ -18,8 +18,8 @@ build:
 	@jshint js/*.js --config js/.jshintrc
 	@jshint js/tests/unit/*.js --config js/.jshintrc
 	@echo "Running JSHint on javascript...             ${CHECK} Done"
-	@recess --compile ${BOOTSTRAP_LESS} > ${BOOTSTRAP}
-	@recess --compile ${BOOTSTRAP_RESPONSIVE_LESS} > ${BOOTSTRAP_RESPONSIVE}
+	@recess  ${BOOTSTRAP_LESS} --compile > ${BOOTSTRAP}
+	@recess  ${BOOTSTRAP_RESPONSIVE_LESS} --compile > ${BOOTSTRAP_RESPONSIVE}
 	@echo "Compiling LESS with Recess...               ${CHECK} Done"
 	@node docs/build
 	@cp img/* docs/assets/img/
