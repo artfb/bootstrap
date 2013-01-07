@@ -9,13 +9,22 @@
   padding: 19px;
   margin-bottom: 20px;
   background-color: @wellBackground;
-  border: 1px solid darken(@wellBackground, 7%);
-  .border-radius(@baseBorderRadius);
-  .box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+  border: 3px solid darken(@wellBackground, 7%);
+  .border-radius(@baseBorderRadius*2);
   blockquote {
     border-color: #ddd;
     border-color: rgba(0,0,0,.15);
   }
+}
+
+.well-info{
+  background-color: @infoBackground;
+  border-color: @infoBorder;
+}
+
+.well-success{
+  background-color: @successBackground;
+  border-color: @successBorder;
 }
 
 // Sizes

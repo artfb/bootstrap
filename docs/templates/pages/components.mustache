@@ -1643,11 +1643,11 @@
 
 
 
-        <!-- Labels and badges
+        <!-- Labels, badges and tags
         ================================================== -->
         <section id="labels-badges">
           <div class="page-header">
-            <h1>{{_i}}Labels and badges{{/i}}</h1>
+            <h1>{{_i}}Labels, badges and tags{{/i}}</h1>
           </div>
           <h3>{{_i}}Labels{{/i}}</h3>
           <table class="table table-bordered table-striped">
@@ -1783,6 +1783,85 @@
                 </td>
                 <td>
                   <code>&lt;span class="badge badge-inverse"&gt;10&lt;/span&gt;</code>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>{{_i}}Tags{{/i}}</h3>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>{{_i}}Name{{/i}}</th>
+                <th>{{_i}}Example{{/i}}</th>
+                <th>{{_i}}Markup{{/i}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  {{_i}}Default{{/i}}
+                </td>
+                <td>
+                  <span class="post-tag">Common</span>
+                </td>
+                <td>
+                  <code>&lt;span class="post-tag"&gt;1&lt;/span&gt;</code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  {{_i}}Success{{/i}}
+                </td>
+                <td>
+                  <span class="post-tag post-tag-success">Design</span>
+                </td>
+                <td>
+                  <code>&lt;span class="post-tag post-tag-success"&gt;2&lt;/span&gt;</code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  {{_i}}Warning{{/i}}
+                </td>
+                <td>
+                  <span class="post-tag post-tag-warning">Web</span>
+                </td>
+                <td>
+                  <code>&lt;span class="post-tag post-tag-warning"&gt;4&lt;/span&gt;</code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  {{_i}}Important{{/i}}
+                </td>
+                <td>
+                  <span class="post-tag post-tag-important">6</span>
+                </td>
+                <td>
+                  <code>&lt;span class="post-tag post-tag-important"&gt;6&lt;/span&gt;</code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  {{_i}}Info{{/i}}
+                </td>
+                <td>
+                  <span class="post-tag post-tag-info">8</span>
+                </td>
+                <td>
+                  <code>&lt;span class="post-tag post-tag-info"&gt;8&lt;/span&gt;</code>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  {{_i}}Inverse{{/i}}
+                </td>
+                <td>
+                  <span class="post-tag post-tag-inverse">10</span>
+                </td>
+                <td>
+                  <code>&lt;span class="post-tag post-tag-inverse"&gt;10&lt;/span&gt;</code>
                 </td>
               </tr>
             </tbody>
@@ -2407,6 +2486,26 @@
           </div>
 <pre class="prettyprint linenums">
 &lt;div class="well well-small"&gt;
+  ...
+&lt;/div&gt;
+</pre>
+<div class="bs-docs-example">
+            <div class="well well-info">
+              {{_i}}Look, I'm in a info well!{{/i}}
+            </div>
+          </div>
+          <pre class="prettyprint linenums">
+&lt;div class="well well-info"&gt;
+  ...
+&lt;/div&gt;
+</pre>
+<div class="bs-docs-example">
+            <div class="well well-success">
+              {{_i}}Look, I'm in a success well!{{/i}}
+            </div>
+          </div>
+          <pre class="prettyprint linenums">
+&lt;div class="well well-success"&gt;
   ...
 &lt;/div&gt;
 </pre>
