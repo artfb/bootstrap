@@ -226,12 +226,12 @@ textarea {
 .radio,
 .checkbox {
   min-height: @baseLineHeight; // clear the floating input if there is no label text
-  padding-left: 20px;
+  padding-left: 23px;
 }
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
-  margin-left: -20px;
+  margin-left: -23px;
 }
 
 // Move the options list down to align with labels
@@ -254,6 +254,78 @@ textarea {
   margin-left: 10px; // space out consecutive inline controls
 }
 
+input[type="checkbox"]{
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+}
+input[type="checkbox"] + i:before{
+  content: "";
+  display: inline-block;
+  background-color: @inputBackground;
+  .bricksInputBorder(@inputBorder);
+  height: @baseLineHeight - 2;
+  .border-radius(@inputBorderRadius);
+  vertical-align: middle;
+  width: @baseLineHeight - 2;
+  margin-left: -23px;
+  .transition(~"border linear .2s, box-shadow linear .2s");
+}
+input[type="checkbox"]:checked + i:after{
+  content: "\2714";
+  color: @blue;
+  display: block;
+  font-style: normal;
+  position: absolute;
+  margin-left: -23px;
+  margin-top: -@baseLineHeight + 1;
+  height: @baseLineHeight;
+  width: @baseLineHeight;
+  text-align: center;
+}
+
+input[type="checkbox"]:focus + i:before{
+  border-color: rgba(82,168,236,.8);
+  outline: 0;
+  outline: thin dotted \9; /* IE6-9 */
+  .box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6)");
+}
+
+input[type="radio"] + i:before{
+  content: "";
+  display: inline-block;
+  background-color: @inputBackground;
+  .bricksInputBorder(@inputBorder);
+  height: 16px;
+  .border-radius(8px);
+  vertical-align: middle;
+  width: 16px;
+  margin-left: -23px;
+  margin-right: 2px;
+  .transition(~"border linear .2s, box-shadow linear .2s");
+}
+input[type="radio"] + i:after{
+  content:"";
+  display: block;
+  position: absolute;
+  width:8px;
+  height:8px;
+  .border-radius(4px);
+  
+  margin-top: -14px;
+  margin-left: -18px;
+}
+
+input[type="radio"]:checked + i:after{
+  background: @blue;
+}
+
+input[type="radio"]:focus + i:before{
+  border-color: rgba(82,168,236,.8);
+  outline: 0;
+  outline: thin dotted \9; /* IE6-9 */
+  .box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6)");
+}
 
 
 // INPUT SIZES
@@ -486,7 +558,7 @@ select:focus:invalid {
   }
   .add-on:first-child,
   .btn:first-child {
-    // FYI, `.btn:first-child` accounts for a button group that's prepended
+    /* FYI, ".btn:first-child" accounts for a button group that's prepended */
     .border-radius(@inputBorderRadius 0 0 @inputBorderRadius);
   }
 }
@@ -617,18 +689,9 @@ input.search-query {
 .form-search .checkbox,
 .form-inline .radio,
 .form-inline .checkbox {
-  padding-left: 0;
+  padding-left: 23px;
   margin-bottom: 0;
   vertical-align: middle;
-}
-// Remove float and margin, set to inline-block
-.form-search .radio input[type="radio"],
-.form-search .checkbox input[type="checkbox"],
-.form-inline .radio input[type="radio"],
-.form-inline .checkbox input[type="checkbox"] {
-  float: left;
-  margin-right: 3px;
-  margin-left: 0;
 }
 
 
